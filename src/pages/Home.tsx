@@ -5,7 +5,9 @@ export default function Home() {
     <div>
       <h1>動画一覧</h1>
       <ul>
-        <li><Link to="/video/my-video">My Video</Link></li>
+        <li>
+          <Link to="/video/my-video">My Video</Link>
+        </li>
       </ul>
     </div>
   );

@@ -7,6 +7,6 @@ if (rootElement) {
   ReactDOM.createRoot(rootElement).render(
     <HashRouter>
       <App />
-    </HashRouter>
+    </HashRouter>,
   );
 }
