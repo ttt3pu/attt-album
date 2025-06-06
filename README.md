@@ -1,5 +1,14 @@
 # attt-album
 
+## Setup
+
+```sh
+pnpm i
+pnpm wrangler types # run this after changes wrangler.toml
+direnv allow
+pnpm wrangler login
+```
+
 ## Encode command sample
 
 ```sh

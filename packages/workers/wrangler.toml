@@ -1,0 +1,14 @@
+name = "workers"
+main = "src/index.ts"
+compatibility_date = "2025-06-04"
+compatibility_flags = ["global_fetch_strictly_public"]
+
+[assets]
+directory = "./public"
+
+[observability]
+enabled = true
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "attt-album"
