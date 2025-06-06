@@ -11,9 +11,9 @@
     "postinstall": "wrangler cf-typegen"
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.8.19",
-    "typescript": "^5.5.2",
-    "vitest": "~3.0.7",
-    "wrangler": "^4.19.1"
+    "@cloudflare/vitest-pool-workers": "0.8.19",
+    "typescript": "5.5.2",
+    "vitest": "3.0.7",
+    "wrangler": "4.19.1"
   }
 }
